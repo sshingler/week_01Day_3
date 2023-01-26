@@ -73,15 +73,15 @@ def number_to_full_month_name(number):
 #     else:
 #         return "Please enter either 1, 4, or 10."
     
-def number_to_short_month_name (num):
-    return number_to_full_month_name(num)[0:3]
+# def number_to_short_month_name (num):
+#     return number_to_full_month_name(num)[0:3]
 
-def volume_of_cube(cube):
-    return cube **3
+# def volume_of_cube(cube):
+#     return cube **3
 
 
-def reverse_string(string):
-    return string[::1]
+# def reverse_string(string):
+#     return string[::1]
 
-def fahrenheit_to_celsius(fahrenheit):
-    return (fahrenheit - 32) * 5 / 9
+# def fahrenheit_to_celsius(fahrenheit):
+#     return (fahrenheit - 32) * 5 / 9
