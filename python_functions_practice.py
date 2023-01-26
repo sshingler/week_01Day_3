@@ -13,7 +13,7 @@ def multiply(number_1, number_2):
     return number_1 * number_2
 
 def divide(number_1, number_2):
-    return number_1 / number_2 
+    return number_1 // number_2   #double division floors the number
 
 
 def length_of_string(test_string):
@@ -63,16 +63,25 @@ def number_to_full_month_name(number):
     else:
         return "Please enter a number between 1 and 12"
     
-def number_to_short_month_name(number):
-    if number == 1:
-        return "Jan"
-    elif number == 4:
-        return "Apr"
-    elif number == 10:
-        return "Oct"
-    else:
-        return "Please enter either 1, 4, or 10."
+# def number_to_short_month_name(number):
+#     if number == 1:
+#         return "Jan"
+#     elif number == 4:
+#         return "Apr"
+#     elif number == 10:
+#         return "Oct"
+#     else:
+#         return "Please enter either 1, 4, or 10."
     
+def number_to_short_month_name (num):
+    return number_to_full_month_name(num)[0:3]
+
+def volume_of_cube(cube):
+    return cube **3
 
 
+def reverse_string(string):
+    return string[::1]
 
+def fahrenheit_to_celsius(fahrenheit):
+    return (fahrenheit - 32) * 5 / 9
